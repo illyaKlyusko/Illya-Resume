@@ -73,11 +73,13 @@ button:hover {
 }
 
 /* Bulleted List Styles */
-section ul {
+section ul,
+section ul ul {
     list-style-type: disc; /* Use 'disc' for filled bullets */
     padding-left: 20px;
 }
 
-section ul li {
+section ul li,
+section ul ul li {
     margin-bottom: 8px;
 }
