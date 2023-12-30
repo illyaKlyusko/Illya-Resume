@@ -5,6 +5,42 @@ body, h1, h2, h3, p, ul, li, button {
     box-sizing: border-box;
 }
 
+
+/* Add space between sections */
+section {
+    margin-bottom: 20px;
+}
+
+/* Add background color to alternate sections for better separation */
+.main-section,
+.additional-section {
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+/* Style headers for better visual separation */
+h2 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+/* Add border to sections for further separation */
+section {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    section {
+        margin-bottom: 15px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+}
+
+
 /* Bulleted List Styles */
 
 ul {
