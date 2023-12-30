@@ -44,3 +44,23 @@ ul ul {
         font-size: 18px;
     }
 }
+
+/* Larger font size for general text */
+body, p, ul, li {
+    font-size: 18px;
+}
+
+/* Center main h1 heading and image */
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%; /* Optional: Add border-radius for a rounded image */
+}
