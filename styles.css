@@ -5,6 +5,7 @@ body, h1, h2, h3, p, ul, li, button {
     box-sizing: border-box;
 }
 
+/* General Styles */
 body {
     font-family: 'San Francisco', 'Helvetica', sans-serif;
     font-size: 16px;
@@ -13,6 +14,7 @@ body {
     margin: 20px;
 }
 
+/* Header Styles */
 header {
     background-color: #007BFF;
     color: #fff;
@@ -26,10 +28,12 @@ h1 {
     font-size: 24px;
 }
 
+/* Section Styles */
 section {
     margin-bottom: 20px;
 }
 
+/* Navigation Styles */
 nav {
     background-color: #f8f8f8;
     border-bottom: 1px solid #ddd;
@@ -46,6 +50,7 @@ nav ul li {
     margin-right: 15px;
 }
 
+/* Button Styles */
 button {
     background-color: #007BFF;
     color: #fff;
@@ -60,13 +65,14 @@ button:hover {
     background-color: #0056b3;
 }
 
+/* Responsive Styles */
 @media (max-width: 600px) {
     body {
         font-size: 14px;
     }
 }
 
-/* Add indentation for bulleted lists */
+/* Bulleted List Styles */
 section ul {
     list-style-type: none;
     padding-left: 20px;
