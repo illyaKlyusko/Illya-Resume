@@ -6,13 +6,23 @@ body, h1, h2, h3, p, ul, li, button {
 }
 
 /* Bulleted List Styles */
-ul,
-ul ul {
-    list-style-type: disc; /* Use 'disc' for filled bullets */
+
+ul {
+    list-style-type: disc; /* Filled circles for top-level list */
     padding-left: 20px;
 }
 
-ul li,
+ul li {
+    margin-bottom: 8px;
+}
+
+ul ul {
+    list-style-type: circle; /* Empty circles for nested lists */
+    padding-left: 20px;
+}
+
 ul ul li {
     margin-bottom: 8px;
 }
+
+
