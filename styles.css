@@ -8,35 +8,35 @@ body, h1, h2, h3, p, ul, li, button {
 
 /* Add space between sections */
 section {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 /* Add background color to alternate sections for better separation */
 .main-section,
 .additional-section {
     background-color: #f8f8f8;
-    padding: 20px;
+    padding: 5px;
 }
 
 /* Style headers for better visual separation */
 h2 {
     border-bottom: 1px solid #ddd;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 /* Add border to sections for further separation */
 section {
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 3px;
 }
 
 /* Responsive styles */
 @media (max-width: 600px) {
     section {
-        margin-bottom: 15px;
+        margin-bottom: 5px;
     }
     h2 {
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 
@@ -45,20 +45,20 @@ section {
 
 ul {
     list-style-type: disc; /* Filled circles for top-level list */
-    padding-left: 20px;
+    padding-left: 12px;
 }
 
 ul li {
-    margin-bottom: 8px;
+    margin-bottom: 5px;
 }
 
 ul ul {
     list-style-type: circle; /* Empty circles for nested lists */
-    padding-left: 20px;
+    padding-left: 15px;
 }
 
 ul ul li {
-    margin-bottom: 8px;
+    margin-bottom: 5px;
 }
 
 
