@@ -52,7 +52,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: block;
     margin-right: 25px;
 }
 
