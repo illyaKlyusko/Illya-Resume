@@ -2,19 +2,19 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    margin: 35px;
+    margin: 20px;
     padding: 0;
     background: url('background.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 header {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -22,7 +22,7 @@ h1 {
 }
 
 section {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     position: relative;
     background: url('path/to/your/image.jpg') no-repeat center center fixed;
     -webkit-background-size: contain;
@@ -48,16 +48,16 @@ section::before {
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 25px;
+    margin: 10px;
 }
 
 nav ul li {
     display: block;
-    margin-right: 25px;
+    margin-right: 10px;
 }
 
 nav li {
-    display: block; /* Display list items horizontally */
+    display: block; /* Display list items vertically with "block", horizontally "inline" */
     margin-right: 10px; /* Add space between list items */
 }
 
