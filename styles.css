@@ -57,6 +57,7 @@ nav ul li {
 }
 
 footer::after {
+    content: "Illya Klyusko";
     text-align: center;
     color: #333;
     background-color: #f4f4f4;
