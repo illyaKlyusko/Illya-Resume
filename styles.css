@@ -56,7 +56,6 @@ nav ul li {
     margin-right: 15px;
 }
 
-/*
 footer {
    
     font-size: 10px;
@@ -68,8 +67,6 @@ footer {
     bottom: 0;
     width: 100%;
     content: "Copyright © 2024 Illya Klyusko";
-}
-*/
 
 footer::before {
     content: "© 2024 Illya Klyusko";
