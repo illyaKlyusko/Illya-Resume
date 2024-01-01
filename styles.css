@@ -57,7 +57,7 @@ nav ul li {
 }
 
 footer {
-    content: "Copyright © 2024 Illya Klyusko";
+   
     font-size: 10px;
     background-color: #007BFF;
     color: #fff;
@@ -66,4 +66,5 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    content: "Copyright © 2024 Illya Klyusko";
 }
