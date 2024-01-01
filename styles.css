@@ -56,12 +56,18 @@ nav ul li {
     margin-right: 25px;
 }
 
-footer::after {
-    content: "Illya Klyusko";
+footer {
     text-align: center;
     color: #333;
     background-color: #f4f4f4;
     padding: 10px;
-    font-size: 20px;
+    font-size: 16px;
 }
+
+/* Additional styling or decoration for the footer */
+footer p {
+    margin: 0; /* Remove default margin for the paragraph */
+    font-weight: bold; /* Make the text bold */
+}
+
 
