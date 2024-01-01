@@ -68,3 +68,7 @@ footer {
     width: 100%;
     content: "Copyright © 2024 Illya Klyusko";
 }
+footer p {
+    margin: 0; /* Remove default margin for the paragraph */
+    font-size: 10px; /* Adjust the font size as needed */
+}
