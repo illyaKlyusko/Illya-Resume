@@ -57,19 +57,8 @@ nav ul li {
 }
 
 nav li {
-    display: inline; /* Display list items horizontally */
+    display: block; /* Display list items horizontally */
     margin-right: 10px; /* Add space between list items */
-}
-
-nav a {
-    text-decoration: none; /* Remove underlines from links */
-    color: #333; /* Link color */
-    font-weight: bold; /* Make the text bold */
-}
-
-/* Additional styling for links on hover */
-nav a:hover {
-    color: #007BFF; /* Change color on hover */
 }
 
 footer {
