@@ -2,14 +2,14 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    margin: 20px;
+    margin: 35px;
     padding: 0;
     background: url('background.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 header {
@@ -18,7 +18,7 @@ header {
 }
 
 h1 {
-    color: blue;
+    color: #87CEFA;
 }
 
 section {
@@ -40,20 +40,20 @@ section::before {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
     z-index: -1;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 15px;
+    margin: 25px;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 15px;
+    margin-right: 25px;
 }
 
 footer::after {
