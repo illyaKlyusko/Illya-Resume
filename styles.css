@@ -13,7 +13,7 @@ body {
 }
 
 p {
-    line-height: 60px; /* Aggiungi spaziatura tra le righe (puoi regolare il valore) */
+    line-height: normal; /* Aggiungi spaziatura tra le righe (puoi regolare il valore) */
     margin-bottom: 60px;
 
 
