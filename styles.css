@@ -30,7 +30,7 @@ section {
     -moz-background-size: contain;
     -o-background-size: contain;
     background-size: contain;
-    padding: 50px;
+    padding: 20px;
     border-radius: 10px;
 }
 
@@ -42,7 +42,7 @@ section::before {
     bottom: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.15);
-    border-radius: 5px;
+    border-radius: 20px;
     z-index: -1;
 }
 
