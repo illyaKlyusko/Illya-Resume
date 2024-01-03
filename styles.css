@@ -11,6 +11,9 @@ body {
     background-size: cover;
     font-size: 15px;
 }
+p {
+    line-height: 1.5; /* Aggiungi spaziatura tra le righe (puoi regolare il valore) */
+}
 
 
 header {
@@ -25,7 +28,7 @@ h1 {
 section {
     margin-bottom: 20px;
     position: relative;
-    background: url('path/to/your/image.jpg') no-repeat center center fixed;
+    background: url('background.jpg') no-repeat center center fixed;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
