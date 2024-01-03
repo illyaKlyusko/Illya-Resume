@@ -27,7 +27,7 @@ h1 {
 }
 
 section {
-    margin-bottom: 30px;
+    margin-bottom: 1em;
     position: relative;
     background: url('path/image.jpg') no-repeat center center fixed;
     -webkit-background-size: contain;
