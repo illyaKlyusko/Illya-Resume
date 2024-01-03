@@ -11,10 +11,11 @@ body {
     background-size: cover;
     font-size: 15px;
 }
+
 p {
     line-height: 0; /* Aggiungi spaziatura tra le righe (puoi regolare il valore) */
-    margin-bottom: 0;
-}
+    margin-bottom: 15px;
+
 
 
 header {
