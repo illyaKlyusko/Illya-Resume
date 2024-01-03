@@ -46,7 +46,7 @@ section::before {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgba(0, 0, 0, 0.3);
     border-radius: 20px;
     z-index: -1;
 }
