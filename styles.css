@@ -12,8 +12,8 @@ body {
     font-size: 15px;
 }
 p {
-    line-height: 2em; /* Aggiungi spaziatura tra le righe (puoi regolare il valore) */
-    margin-bottom: 1em;
+    line-height: 1em; /* Aggiungi spaziatura tra le righe (puoi regolare il valore) */
+    margin-bottom: 0.5em;
 }
 
 
