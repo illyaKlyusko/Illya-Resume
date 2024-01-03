@@ -23,14 +23,14 @@ h1 {
 }
 
 section {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     position: relative;
     background: url('path/to/your/image.jpg') no-repeat center center fixed;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
     background-size: contain;
-    padding: 20px;
+    padding: 50px;
     border-radius: 10px;
 }
 
@@ -41,7 +41,7 @@ section::before {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     z-index: -1;
 }
